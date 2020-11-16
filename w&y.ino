@@ -80,40 +80,40 @@ void loop() {
   // calculate the average:
   average = total / numReadings;
   // send it to the computer as ASCII digits
-  if (average > 190 && average < 195) {
+  if (average > 180 && average < 190) {
     Telnet.println("Reading: 1");
   }
-  else if(average > 225 && average < 235){
+  else if(average > 215 && average < 225){
     Telnet.println("Reading: 2");
   }
-  else if(average > 270 && average < 285){
+  else if(average > 265 && average < 275){
     Telnet.println("Reading: 3");
   }
-  else if(average > 360 && average < 380){
+  else if(average > 355 && average < 365){
     Telnet.println("Reading: 4");
   }
-  else if(average > 550 && average < 570){
+  else if(average > 535 && average < 545){
     Telnet.println("Reading: 5");
   }
-  else if(average > 160 && average < 170){
+  else if(average > 155 && average < 165){
     Telnet.println("Reading: 6");
   }
-  else if(average > 140 && average < 150){
+  else if(average > 130 && average < 140){
     Telnet.println("Reading: 7");
   }
-  else if(average > 116 && average < 125){
+  else if(average > 110 && average < 115){
     Telnet.println("Reading: 8");
   }
-  else if(average > 98 && average < 105){
+  else if(average > 90 && average < 100){
     Telnet.println("Reading: 9");
   }
-  else if(average > 85 && average < 98){
+  else if(average > 85 && average < 90){
     Telnet.println("Reading: 10");
   }
-  else if(average > 120 && average < 139){
+  else if(average > 120 && average < 130){
     Telnet.println("Reading: Happy");
   }
-  else if(average > 105 && average < 115){
+  else if(average > 100 && average < 110){
     Telnet.println("Reading: Sad");
   }
   else{
