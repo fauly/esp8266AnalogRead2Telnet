@@ -12,7 +12,7 @@ int inputPin = A0;
 WiFiServer TelnetServer(23);
 WiFiClient Telnet;
 
-IPAddress ip (192,168,1,159);           //assigned ip address
+IPAddress ip (192,168,1,158);           //assigned ip address
 IPAddress gateway (192,168,1,1);       //gateway of the network you're connected to
 IPAddress subnet (255,255,255,0);      //subnet of the network your connected to
 
